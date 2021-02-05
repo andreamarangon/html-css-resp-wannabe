@@ -82,11 +82,22 @@ img {
     box-sizing: border-box;
   }
   body {
-    font-size: 1.9em;
+    font-size: 1.8em;
   }
 
   .row {
     margin-top: 0;
+    padding: 1em 0;
+  }
+
+  #lezioni .row img, #steps .row img {
+    margin-top: 1em;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 1em;
   }
 
   #lezioni.container .row, #why.container.grey .row {
@@ -107,6 +118,15 @@ img {
     width: 100%;
   }
 
+  .container.grey {
+    background-color: #ffffff;
+  }
+
+  hr {
+    background-color: #000000;
+    margin: 0 auto;
+    width: 97%;
+  }
 
 
 }
